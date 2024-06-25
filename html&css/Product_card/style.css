@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+.card-box{
+    display: flex;
+    max-width: 700px;
+    min-width: 550px;
+    height: 71vh;
+    margin: auto 30px;
+    border-radius: 1.5em;
+    background-color: white;
+}
+img{
+    height: 100%;
+    max-width: 100%;
+    border-bottom-left-radius: 1.5em;
+    border-top-left-radius: 1.5em;
+    object-fit:fill
+}
+
+.ig{
+    width: 50%;
+  }
+
+.text{
+    width: 45%;
+    text-align: left;
+    margin: 1.5em 2em;
+}
+
+.kafi{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    text-align: left;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+}
+
+.textp{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+    color: hsl(228, 12%, 48%);
+}
+
+.rupee{
+    color: hsl(158, 36%, 37%);
+    margin-right: 0.3em;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Fraunces", serif;
+}
+
+.stk{
+    font-size: 16px;
+    color: grey;
+    font-weight: 300;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3px;
+}
+
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+   margin-top: 30px;
+    height: 50px;
+    width: 100% ;
+    color: white;
+    border-radius: 0.7em;
+    cursor: pointer;
+}
+
+#im{
+    height: 40%;
+    margin: 15px 15px 50px 50px;   
+}
+
+#last{
+    margin: 15px 15px 0px 0px;
+    font-size: large; 
+}
+
+.btn:hover{
+    background-color: rgb(13, 45, 35);
+}

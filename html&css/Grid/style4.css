@@ -1,0 +1,41 @@
+.container{
+    border: 1px solid brown;
+    background-color: yellow;
+    height: 500px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+
+    /* justify-content: start;
+    justify-content: center;
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-between; */
+
+    /* vertical axis*/
+    /*align-items: center;
+     align-items: end; 
+     align-items: stretch; */
+
+       /* rows gap  */
+    /* align-content: space-between; */
+
+    /* place-items: center; */
+    place-content: center;
+
+}
+.box{
+    border: 1px solid red;
+    background-color: aqua ;
+
+}
+#box1{
+    /* justify-self: start;
+    justify-self: end;
+    justify-self: center; */
+
+    /* align-self: stretch;
+    align-self: center; */
+}

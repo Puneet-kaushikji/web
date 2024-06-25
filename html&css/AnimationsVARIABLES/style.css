@@ -1,0 +1,17 @@
+:root{
+    --drk-brn: #523233; /*Global variable */
+}
+.container{
+    border: 1px solid brown;
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    background-color: var(--drk-brn);
+    
+}
+.box{
+    border: 2px solid green ;
+    background-color: aqua;
+    --dark-color:#5d6767;  /* local variable*/
+    color: var(--dark-color);
+}

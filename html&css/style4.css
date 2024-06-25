@@ -1,0 +1,10 @@
+.hight{
+    max-height: 100px;
+    border: 2px solid black;
+    overflow: scroll;
+}
+.box{
+    margin: 10px;
+    min-height: 100px;
+    border: 2px solid black;
+}
