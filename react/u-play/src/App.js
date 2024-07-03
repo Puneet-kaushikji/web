@@ -3,15 +3,22 @@ import './App.css';
 import ChildA from './components/ChildA';
 
 
-  const data = createContext();
+  // const data = createContext();
+
+  // context hook
+  const data =    createContext();
+  const data1 = createContext();
 
 function App() {
    const name = "kaushik";
+   const gender = "male";
 
   return (
     <div>
       <data.Provider value={name}>
-    <ChildA />
+      <data1.Provider value ={gender}>
+        <ChildA />
+      </data1.Provider>
       </data.Provider>
 
     </div>
@@ -19,4 +26,4 @@ function App() {
 }
 
 export default App;
-export {data};
+export {data,data1};
